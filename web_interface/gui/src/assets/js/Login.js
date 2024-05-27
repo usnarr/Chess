@@ -12,8 +12,8 @@ function Login() {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
+    <div className="login-container">
+      <h2 className="main-text">Login</h2>
       <input
         type="text"
         placeholder="Username"

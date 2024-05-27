@@ -7,7 +7,7 @@ function GameMode(){
     //console.log("gamemode component is rendering");
     return (
         <div>
-          <h2 id='main-text'>Select Game Mode</h2>
+          <h2 class='main-text'>Select Game Mode</h2>
           <div className="icon-buttons">
             <button className="icon-button">
                 <img src={whiteCrown} alt="White Crown"/>
