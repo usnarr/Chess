@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function Login() {
   const navigate = useNavigate();
   const [username, setUsername] = useState('');
-  console.log("Login component is rendering");
+  //console.log("Login component is rendering");
   const handleLogin = () => {
     localStorage.setItem('username', username);
 
